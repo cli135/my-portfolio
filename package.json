@@ -7,11 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite preview --port 8080"  // Add this line for Heroku to start the app
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "serve": "^14.2.0"  // Add this dependency for a lightweight HTTP server
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
