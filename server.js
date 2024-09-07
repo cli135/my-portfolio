@@ -1,7 +1,13 @@
-const express = require('express');
-const path = require('path');
+import express from 'express';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
 const app = express();
 const PORT = process.env.PORT || 8080;
+
+// Get the __dirname equivalent in ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Serve static files from the 'dist' directory (where Vite builds your app)
 app.use(express.static(path.join(__dirname, 'dist')));
