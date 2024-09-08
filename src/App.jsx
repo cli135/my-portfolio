@@ -51,7 +51,7 @@ const App = () => {
             </ul>
           </div>
           
-          <div className="mb-8">
+          {/* <div className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[1, 2].map((project) => (
@@ -70,11 +70,11 @@ const App = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </main>
       
-      <footer className="bg-white">
+      {/* <footer className="bg-white">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
           <div className="mt-8 md:mt-0 md:order-1">
             <p className="text-center text-base text-gray-400">
@@ -82,7 +82,7 @@ const App = () => {
             </p>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 };
