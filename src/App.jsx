@@ -29,6 +29,7 @@ const App = () => {
             <h2 className="text-2xl font-semibold mb-4">About Me</h2>
             <p className="text-gray-700 mb-4">
               Computer Science graduate from Johns Hopkins University. I am passionate about software development and machine learning. 
+              I am currently an Incoming Software Development Engineer at Amazon.
               You can visit my LinkedIn profile to learn more about my professional journey.
             </p>
             <h3 className="text-xl font-semibold mb-2">Skills</h3>
@@ -44,8 +45,9 @@ const App = () => {
           <div className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Experience</h2>
             <ul className="space-y-2">
-              <li>🎓 Current: Software Engineer @ Computer Packages </li>
-              <li>💻 Previous: Student @ Johns Hopkins University</li>
+              <li>🚀 Incoming: Software Development Engineer @ Amazon</li>
+              <li>💼 Previous: Software Engineer @ Computer Packages</li>
+              <li>🎓 Previous: Student @ Johns Hopkins University</li>
               <li>💻 Previous: Software Engineering Intern @ JLG Industries</li>
               <li>💻 Previous: Software Engineering Intern @ 2Sigma School</li>
             </ul>
